@@ -5,6 +5,7 @@
 
 
 **Summary**
+
 This Python code aims to predict wine quality using several machine learning models (Linear Regression, Logistic Regression, Random Forest Classifier, and Multi-Layer Perceptron Classifier). The models are trained based on several wine characteristics, including Fixed acidity, Volatile acidity, Citric acid, Residual sugar, Chlorides, Free sulfur dioxide, Total sulfur dioxide, Density, pH, Sulfates, and Alcohol.
 
 
@@ -30,6 +31,7 @@ It then splits the data into training and testing sets, with 80% of the data use
 
 
 **Model Building, Training, Evaluation, and Prediction:**
+
 Four different machine learning models (Linear Regression, Logistic Regression, Random Forest Classifier, and MLP Classifier) are trained on the training data and evaluated on the test data. The accuracy of each model is printed, along with the model's weights and bias. For Logistic Regression, RandomForest, and MLP, it also prints a classification report and a confusion matrix for both the training and testing sets.
 
 Linear Regression: It builds and trains a linear regression model, calculates the accuracy score on the test set, and displays the weights (coefficients) and bias (intercept) of the model.
@@ -42,6 +44,7 @@ Multi-Layer Perceptron (MLP) Classifier: The script also uses a Multi-Layer Perc
 
 
 **Results:**
+
 Linear Regression: 
 Accuracy: 25%
 [ 3.82599382e-02 -1.72451012e-01 1.21607472e-01 3.11841975e-02 -6.75218942e-01 -2.82438201e-04 -8.31753076e-04 3.92475224e+01 8.06682245e-02 3.32728860e-01 7.02569385e-02]

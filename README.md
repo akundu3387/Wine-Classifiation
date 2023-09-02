@@ -8,7 +8,7 @@
 
 This Python code aims to predict wine quality using several machine learning models (Linear Regression, Logistic Regression, Random Forest Classifier, and Multi-Layer Perceptron Classifier). The models are trained based on several wine characteristics, including Fixed acidity, Volatile acidity, Citric acid, Residual sugar, Chlorides, Free sulfur dioxide, Total sulfur dioxide, Density, pH, Sulfates, and Alcohol.
 
-
+------------------------------------------------------------------------------------------------------------------
 
 **Step by Step Overview:**
 
@@ -29,6 +29,7 @@ It then separates the input features and target variable ‘quality.’ The inpu
 Data Splitting: 
 It then splits the data into training and testing sets, with 80% of the data used for training and the remaining 20% used for testing.
 
+------------------------------------------------------------------------------------------------------------------
 
 **Model Building, Training, Evaluation, and Prediction:**
 
@@ -42,6 +43,7 @@ Random Forest Classifier: It then applies the Random Forest Classifier model to 
 
 Multi-Layer Perceptron (MLP) Classifier: The script also uses a Multi-Layer Perceptron Classifier with a maximum of 1000 iterations, predicts on the test set, and evaluates the model using the classification report.
 
+------------------------------------------------------------------------------------------------------------------
 
 **Results:**
 
@@ -62,6 +64,7 @@ Accuracy: 92.8%
 Multi-Layer Perceptron (MLP) Classifier: 
 Accuracy: 90%
 
+------------------------------------------------------------------------------------------------------------------
 
 **User Interaction for Wine Quality Testing:**
 After the models are trained and evaluated, the script enters a while loop where it interacts with the user to input their wine's characteristics and uses the Random Forest Classifier model to predict the quality of their wine. The user has the option to assess another wine or exit the program.

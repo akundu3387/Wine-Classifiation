@@ -13,7 +13,7 @@ This Python code aims to predict wine quality using several machine learning mod
 **Step by Step Overview:**
 
 Environment Setup: 
-First, it installs necessary Python packages NumPy and scikit-learn, and imports other required libraries and functions.
+First, it installs necessary Python packages NumPy and scikit-learn, and imports other required libraries and functions
 
 Data Uploading and Reading: 
 It then automatically retrieves the 'winequality-red.csv' file from the Google Colab library (for first time users, you need to upload the file manually in the “Files” tab first. After retrieving the file, it converts it into the pandas DataFrame variable named ‘wine.’ To evaluate that the dataset was imported correctly, it displays the first five rows of the dataset.

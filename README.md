@@ -2,6 +2,11 @@
 
 **Wine Quality Classification Code Analysis**
 
+**Contributers**
+
+Arjun Kundu
+
+Milan Parmar
 
 
 **Summary**
